@@ -32,5 +32,6 @@
     background-color: rgb(28, 32, 94);
     width: 300px;
     font-size: 2em;
+    padding: 12px 0;
   }
 </style>

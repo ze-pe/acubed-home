@@ -3,6 +3,7 @@
   import Footer from './components/Footer.svelte';
   import Hero from './components/Hero.svelte';
   import ThreeA from './components/ThreeA.svelte';
+  import Enigma from './components/Enigma.svelte';
   import Team from './components/Team.svelte';
   import Contact from './components/Contact.svelte';
 </script>
@@ -12,6 +13,7 @@
   <Header />
   <Hero />
   <ThreeA />
+  <Enigma />
   <Team />
   <Contact />
   <Footer />

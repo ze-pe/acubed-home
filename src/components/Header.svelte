@@ -71,7 +71,7 @@
   a {
     color: hsl(282 98% 96%);
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 600;
     transition: color 0.2s ease-in-out;
   }

@@ -15,7 +15,7 @@
 <style>
   .a-container {
     background-color: rgb(33, 60, 133);
-    height: 540px;
+    height: 560px;
     width: 100vw;
     padding: 16px;
     box-sizing: border-box;
@@ -32,6 +32,6 @@
   .card {
     background-color: rgb(36, 55, 109);
     width: 330px;
-
+    padding: 12px 0;
   }
 </style>

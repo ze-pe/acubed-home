@@ -1,12 +1,22 @@
+<script>
+  
+  const clickHandler = (e) => {
+    console.log(e.target);
+    e.target.style.textAlign = 'left';
+    e.target.style.flexDirection = 'row';
+  }
+</script>
+
 <div class="background">
 
 </div>
 
 <div class="hero-container">
 
-  <div class="content">
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <div class="content" on:click={clickHandler}>
     <div class="hero-left">
-      <h1>A Cubed Design</h1>
+      <h1><span>A</span> <span>C</span>UBED <span>D</span>ESIGN</h1>
       <p>We're aiming to tackle the braille literacy crisis by making it easier for blind individuals to acquire screen readers.</p>
     </div>
     <div class="hero-right">
@@ -17,23 +27,26 @@
 
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
   .background {
     background: url("./assets/pixabay-royalty-free-printer-2.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: hsla(282 78% 8% / 0.4); 
+    /* background-color: hsla(282 78% 8% / 0.4);  */
+    background-color: #0009;
 
     background-blend-mode: darken;
-    height: 750px;
+    height: 850px;
     width: 100vw;
     z-index: -1;
 
     position: fixed;
+    transform: scaleX(-1); /* flips image */
   }
 
   .hero-container {
-    height: 650px;
-    width: 1200px;
+    height: 750px;
+    width: 1100px;
     position: relative;
 
     margin: 0 auto;
@@ -47,17 +60,18 @@
 
   .content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    text-align: left;
+    text-align: center;
 
-    backdrop-filter: blur(9px);
-    background-color: #0004;
+    /* backdrop-filter: blur(10px);
+    background-color: #0003; */
     border-radius: 10px;
     gap: 12px;
 
-    height: 50%;
+    height: 40%;
 
     padding: 22px;
   }
@@ -70,19 +84,20 @@
   
 
   h1 {
-    margin: 14px;
     font-size: 4em;
-    margin: 26px 0;
-    font-family: 'Open Sans', sans-serif;
-  }  
+  }
 
-  * {
-    font-family: 'Open Sans', sans-serif;
+  span {
+    font-size: 1.16em;
   }
 
   p {
-    font-size: 1.7em;
+    font-size: 1.8em;
     margin: 12px;
-    line-height: 106%;
+    line-height: 108%;
+  }
+
+  .hero-left {
+    align-self: start;
   }
 </style>
