@@ -29,7 +29,7 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
   .background {
-    background: url("./assets/pixabay-royalty-free-printer-2.jpg") no-repeat;
+    background: url("https://raw.githubusercontent.com/Croixed/acubed-home/main/public/assets/pixabay-royalty-free-printer-2.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     /* background-color: hsla(282 78% 8% / 0.4);  */
