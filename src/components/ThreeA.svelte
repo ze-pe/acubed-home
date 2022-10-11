@@ -2,7 +2,7 @@
 
 <div class="a-container">
 
-  <h1>Three As of A Cubed</h1>
+  <h1>Three As of A Cubed (placeholder)</h1>
   <div class="cards">
     <div class="card">Accessible</div>
     <div class="card">Affordable</div>

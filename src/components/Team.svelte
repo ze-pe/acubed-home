@@ -2,10 +2,10 @@
 
 <div class="a-container">
 
-  <h1>Meet Our Executive Team</h1>
+  <h1>Meet Our Executive Team (placeholder)</h1>
   <div class="cards">
     <div class="card">Garrett Carder</div>
-    <div class="card">Carloine Karbowski</div>
+    <div class="card">Caroline Karbowski</div>
     <div class="card">Enan Srivastava</div>
   </div>
 

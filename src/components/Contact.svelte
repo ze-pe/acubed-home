@@ -1,7 +1,7 @@
 
 
 <div class="contact">
-  <h2>Get Involved</h2>
+  <h2>Get Involved (placeholder)</h2>
   link to new tab or modal or something??
 </div>
 

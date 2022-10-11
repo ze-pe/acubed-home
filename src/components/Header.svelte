@@ -28,6 +28,8 @@
     overflow: hidden;
 
     z-index: 2;
+
+    box-shadow: rgba(0, 0, 0, 0.37) 0px 6px 12px;
   }
 
   header {
