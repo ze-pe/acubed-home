@@ -17,7 +17,6 @@
       C42.2,34.8,39.2,37.9,34.6,37.9z M89.6,83.7H76.2V62.2c0-5.4-1.9-9.1-6.8-9.1c-3.7,0-5.9,2.5-6.9,4.9c-0.4,0.9-0.4,2.1-0.4,3.3v22.5
       H48.7c0,0,0.2-36.5,0-40.3h13.4v5.7c1.8-2.7,5-6.7,12.1-6.7c8.8,0,15.4,5.8,15.4,18.1V83.7z"></path></svg>
   </a>
-
 </footer>
 
 <style>
@@ -28,7 +27,7 @@
   img {
     margin-right: auto;
     width: 90px;
-    height: 90px;
+    /* height: 90px; */
   }
 
   .dark-text {
@@ -50,16 +49,27 @@
     justify-content: center;
   }
 
+  @media (max-width: 950px) {
+    footer {
+      height: 145px;
+    }
+
+    .dark-text {
+      font-size: .8em;
+      margin: 8em auto 0 auto;
+    }
+  }
+
   .svg-content {
     z-index: 2;
     width: 42px;
-    height: 42px;
+    /* height: 42px; */
     margin: 6px;
     color: #4267B2;
   }
 
   .fb {
-    margin-left: auto;
+    /* margin-left: auto; */
     fill: #4267B2;
   }
   

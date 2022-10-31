@@ -4,10 +4,9 @@
 </script>
 
 <header>
-  <img src="./assets/ACubedLogo.png" alt="A Cubed Design Logo">
-  <h1>ACD</h1>
+  <img src="dist/assets/ACubedD-White-Transparent.png" alt="A Cubed Design Logo">
   <div class="links">
-    <a href="#about">About</a>
+    <a href="/">About</a>
     <a href="#team">Team</a>
     <a href="#contact">Contact</a>
   </div>
@@ -37,7 +36,7 @@
   }
 
   img {
-    height: 160%;
+    height: 80%;
     padding: 0 10px;
   }
 
@@ -68,6 +67,21 @@
     margin-left: auto;
     padding: 0 30px;
     z-index: 3;
+  }
+
+  @media (max-width: 950px) {
+    header {
+      flex-direction: column;
+      padding: 1rem;
+    }
+
+    .links {
+      margin: .25rem;
+    }
+
+    .links a {
+      font-size: 1.25rem;
+    }
   }
 
   a {

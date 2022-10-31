@@ -2,11 +2,23 @@
 
 <div class="a-container">
 
-  <h1>Three As of A Cubed (placeholder)</h1>
+  <h1 class="three-a-header">Three A's of A Cubed Design</h1>
   <div class="cards">
-    <div class="card">Accessible</div>
-    <div class="card">Affordable</div>
-    <div class="card">Accelerated</div>
+    <div class="card">
+      <div class="card-header">Accessible</div>
+      <img class="card-image" src="https://cdn-icons-png.flaticon.com/512/5273/5273859.png" alt="hand reading a braille book">
+      <p class="card-text">We value accessibility first and foremost. We aim to provide a product, which will be easily usable and well documented.</p>
+    </div>
+    <div class="card">
+      <div class="card-header">Affordable</div>
+      <img class="card-image" src="https://cdn-icons-png.flaticon.com/512/3146/3146459.png" alt="two hands holding a coin">
+      <p class="card-text">Our braille display is slated to become the most easily obtainable product on the market.</p>
+    </div>
+    <div class="card">
+      <div class="card-header">Accelerated</div>
+      <img class="card-image" src="https://cdn-icons-png.flaticon.com/512/1067/1067357.png" alt="a flying rocket ship">
+      <p class="card-text">We aim to accelerate the way blind individuals interface with their environment by adding plug and play features to our device.</p>
+    </div>
   </div>
 
 </div>
@@ -14,24 +26,43 @@
 
 <style>
   .a-container {
-    background-color: rgb(33, 60, 133);
-    height: 560px;
-    width: 100vw;
-    padding: 16px;
+    background-color: #292929;
+    padding: 3em;
     box-sizing: border-box;
+  }
+
+  @media (max-width: 900px) {
+    .cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   .cards {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    height: 80%;
     font-size: 2em;
   }
   
   .card {
-    background-color: rgb(36, 55, 109);
-    width: 330px;
-    padding: 12px 0;
+    margin: 2rem;
+  }
+
+  .three-a-header {
+    margin-top: 2rem
+  }
+  
+  .card-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5rem auto;
+  }
+
+  .card-image {
+    width: 200px;
+  }
+
+  .card-text {
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
   }
 </style>

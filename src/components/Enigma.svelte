@@ -16,17 +16,24 @@
 
 <style>
   .enigma {
-    height: 360px;
+    /* height: 360px; */
     display: flex;
     align-items: center;
+  }
 
+  @media (max-width: 900px) {
+    .enigma {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   .enigma img {
-    height: 88%;
+    /* height: 88%; */
+    width: 400px;
     border: 3px solid white;
     border-radius: 10px;
-    margin-left: 20px;
+    margin: 2rem;
   }
 
   .enigma-text {
@@ -38,6 +45,7 @@
     font-size: 2.3em;
     font-weight: bold;
     margin: 20px;
+    line-height: 1em;
   }
 
   .sub-text {

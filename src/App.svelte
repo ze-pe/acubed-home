@@ -5,6 +5,7 @@
   import ThreeA from './components/ThreeA.svelte';
   import Enigma from './components/Enigma.svelte';
   import Team from './components/Team.svelte';
+  import Partners from './components/Partners.svelte'
   import Contact from './components/Contact.svelte';
 </script>
 
@@ -15,6 +16,7 @@
   <ThreeA />
   <Enigma />
   <Team />
+  <Partners />
   <Contact />
   <Footer />
 
