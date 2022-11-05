@@ -9,8 +9,7 @@
 
 <style>
   .contact {
-    background-color: #730099;
-    padding: 24px;
+    padding: 7em 0 5em;
   }
 
   h2 {

@@ -1,4 +1,13 @@
 <script>
+import {activeView} from '../stores';
+
+function formHandler() {
+  $activeView = 'form';
+}
+
+function mainHandler() {
+  $activeView = 'main';
+}
 
 
 </script>
@@ -6,9 +15,9 @@
 <header>
   <img src="dist/assets/ACubedD-White-Transparent.png" alt="A Cubed Design Logo">
   <div class="links">
-    <a href="/">About</a>
-    <a href="#team">Team</a>
-    <a href="#contact">Contact</a>
+    <a href="/" on:click={mainHandler}>About</a>
+    <a href="#team" on:click={mainHandler}>Team</a>
+    <a href="#contact" on:click={formHandler}>Contact</a>
   </div>
   <div class="accent-block" aria-hidden="true"></div>
   <div class="accent-block-2" aria-hidden="true"></div>

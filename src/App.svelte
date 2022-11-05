@@ -7,18 +7,27 @@
   import Team from './components/Team.svelte';
   import Partners from './components/Partners.svelte'
   import Contact from './components/Contact.svelte';
+
+  import {activeView} from './stores';
+
 </script>
 
 <main>
-
+  {#if $activeView === 'main'}
   <Header />
   <Hero />
   <ThreeA />
   <Enigma />
   <Team />
   <Partners />
+  <Footer />
+  {/if}
+
+  {#if $activeView === 'form'}
+  <Header />
   <Contact />
   <Footer />
+  {/if}
 
 </main>
 
