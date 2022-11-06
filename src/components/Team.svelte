@@ -8,7 +8,7 @@
     <div class="cards">
       <div class="card">
         <div class="card-content">
-          <img class="profile-pic" src="../../dist/assets/Garrett.png" alt="Garrett Carder">
+          <img class="profile-pic" src="/public/assets/Garrett.png" alt="Garrett Carder">
           <h1>Garrett Carder</h1>
           <div class="job-title">CEO & Chief Engineer</div>
           <p>Graduating in 2023 from OSU with a Bachelor's in Computer Science, Garrett leads A Cubed Design in Business Development and Engineering Development</p>
@@ -21,7 +21,7 @@
       </div>
       <div class="card">
         <div class="card-content">
-          <img class="profile-pic" src="../../dist/assets/Caroline.png" alt="Caroline Karbowski">
+          <img class="profile-pic" src="/public/assets/Caroline.png" alt="Caroline Karbowski">
           <h1>Caroline Karbowski</h1>
           <div class="job-title">Chief Community Officer</div>
           <p>Graduate in 2022 of OSU with a Bachelor's in Biology, Caroline backs A Cubed Design with a Robust Community and Deep Knowledge of Blindness Accessibility</p>
@@ -34,7 +34,7 @@
       </div>
       <div class="card">
         <div class="card-content">
-          <img class="profile-pic" src="https://source.unsplash.com/random/100x102" alt="Enan Srivastava">
+          <img class="profile-pic" src="/public/assets/Enan.png" alt="Enan Srivastava">
           <h1>Enan Srivastava</h1>
           <div class="job-title">Chief Operations Officer</div>
           <p>Graduate in 2022 of OSU with a Bachelor's in Economics, Enan is the driving force behind A Cubed Design's Strategy and Operations.</p>
@@ -104,7 +104,7 @@
   span {
     padding: 70px;
     margin: 0px 20px;
-    background-image: url('dist/assets/ACubedLogo.png');
+    background-image: url('/public/assets/ACubedLogo.png');
     background-size: contain;
     background-position: 15%;
     background-repeat: no-repeat;

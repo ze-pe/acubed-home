@@ -16,7 +16,7 @@
     </div>
     <div class="card">
       <div class="card-header">Accelerated</div>
-      <img class="card-image" src="https://cdn-icons-png.flaticon.com/512/1067/1067357.png" alt="a flying rocket ship">
+      <img class="card-image" src="https://cdn-icons-png.flaticon.com/512/619/619175.png" alt="a flying rocket ship">
       <p class="card-text">We aim to accelerate the way blind individuals interface with their environment by adding plug and play features to our device.</p>
     </div>
   </div>

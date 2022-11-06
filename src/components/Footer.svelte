@@ -1,6 +1,7 @@
 <footer>
   <img src="./assets/ACubedLogo.png" alt="A Cubed Design Logo">
   <p class="dark-text">Copyright 2022 Accessible Affordable Accelerated Design LLC</p>
+  <p class="icon-attributions">Icon Attributions</p>
   <!-- SVGs copied from acubed site -->
   <a href="https://www.facebook.com/A-Cubed-Design-104416965644412" target="_blank">
     <svg class="svg-content fb" viewBox="0 0 112 112" x="0" y="0" id="svg-7e29"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2
@@ -49,7 +50,12 @@
     justify-content: center;
   }
 
-  @media (max-width: 950px) {
+  .icon-attributions {
+    font-size: .8em;
+    margin-right: 3em;
+  }
+
+  @media (max-width: 1150px) {
     footer {
       height: 145px;
     }
@@ -57,6 +63,13 @@
     .dark-text {
       font-size: .8em;
       margin: 8em auto 0 auto;
+    }
+
+    .icon-attributions{
+      position: absolute;
+      right: 0;
+      left: 0;
+      margin: 4.5em auto 0 auto;
     }
   }
 
