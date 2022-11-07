@@ -51,31 +51,29 @@
 
 <style>
   .a-container {
-    background-color: rgb(35, 33, 133);
+    background-color: rgba(41, 41, 41, .8);
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 3em;
+    padding: 75px;
   }
 
   .cards {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 4rem;
     height: auto;
     grid-template-columns: repeat(3, 1fr);
   }
   
   .card {
-    background-color: rgb(28, 32, 94);
-    border-radius: 10%;
-    width: 300px;
+    border-radius: 20px;
+    width: 320px;
     margin-bottom: 40px;
     font-size: 2em;
     display: flex;
-    box-shadow: 0px 0px 5px #9cdffc;
   }
 
   .card-content {
@@ -93,7 +91,7 @@
   .profile-pic {
     width: 70%;
     border-radius: 50%;
-    border: 5px solid;
+    border: 2px solid rgba(255, 255, 255, 0.87);
   }
 
   h1 {
@@ -114,6 +112,7 @@
     padding: 0px 30px;
     font-size: 1rem;
     width: 100%;
+    border-radius: 10px;
     background-color: hsl(282 98% 29%);
   }
 
@@ -137,6 +136,7 @@
     .cards {
       flex-wrap: wrap;
       justify-content: center;
+      gap: 2rem;
     }
   }
 </style>

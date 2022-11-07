@@ -26,8 +26,8 @@
 
 <style>
   .a-container {
-    background-color: #292929;
-    padding: 3em;
+    background-color: rgba(41, 41, 41, .8);
+    padding: 100px;
     box-sizing: border-box;
   }
 

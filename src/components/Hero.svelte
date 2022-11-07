@@ -17,7 +17,7 @@
   <div class="content" >
     <div class="hero-left">
       <h1><span>A</span> <span>C</span>UBED <span>D</span>ESIGN</h1>
-      <p>We're aiming to tackle the braille literacy crisis by making it easier for blind individuals to acquire screen readers.</p>
+      <p>Tackling the braille literacy crisis by making it easier for blind individuals to acquire screen readers</p>
     </div>
     <div class="hero-right">
       <iframe src="https://www.youtube.com/embed/1rPE22she0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -36,7 +36,7 @@
     background-color: #0009;
 
     background-blend-mode: darken;
-    height: 850px;
+    height: 910px;
     width: 100vw;
     z-index: -1;
 
@@ -47,8 +47,8 @@
   .hero-container {
     width: 100%;
     position: relative;
-
-    margin: 8em auto 5em auto;
+    
+    margin: 128px auto 100px auto;
 
     display: flex;
     justify-content: center;

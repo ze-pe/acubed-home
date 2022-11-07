@@ -16,10 +16,10 @@
   {#if $activeView === 'main'}
   <Header />
   <Hero />
-  <ThreeA />
   <Enigma />
-  <Team />
+  <ThreeA />
   <Partners />
+  <Team />
   <Footer />
   {/if}
 

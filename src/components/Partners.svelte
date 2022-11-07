@@ -16,7 +16,7 @@
             <img class="logo-image" src="/public/assets/innovation-studio-logo.svg" alt="innovation studio logo">
         </div>
         <div>
-            <img class="logo-image" src="/public/assets/school-for-the-blind-logo.png" alt="ohio state school for the blind logo">
+            <img src="/public/assets/school-for-the-blind-logo.png" alt="ohio state school for the blind logo">
         </div>
     </div>
 </div>
@@ -25,12 +25,13 @@
 .container {
     /* background-color: #292929; */
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 75px 0;
     width: 100%;
 }
 
 .bg-braille {
     background-image: url('/public/assets/unsplash-royalty-free-braille.jpg');
+    box-shadow: inset 0 0 0 1000vw rgba(174, 51, 219, 0.35);
     background-position: 0 40%;
     background-size: cover;
 }
