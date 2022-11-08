@@ -48,7 +48,8 @@
   }
 
   .three-a-header {
-    margin-top: 2rem
+    margin-top: 2rem;
+    font-size: 3.5em;
   }
   
   .card-header {

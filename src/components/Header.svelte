@@ -13,7 +13,7 @@ function mainHandler() {
 </script>
 
 <header>
-  <img src="/public/assets/ACubedD-White-Transparent.png" alt="A Cubed Design Logo">
+  <img src="/assets/ACubedD-White-Transparent.png" alt="A Cubed Design Logo">
   <div class="links">
     <a href="/" on:click={mainHandler}>About</a>
     <a href="#team" on:click={mainHandler}>Team</a>

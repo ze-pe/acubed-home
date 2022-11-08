@@ -4,19 +4,19 @@
     </h2>
     <div class="container flex">
         <div>
-            <img class="logo-image" src="/public/assets/osu-logo.png" alt="osu keenen center for entrepreneurship logo">
+            <img class="logo-image" src="/assets/osu-logo.png" alt="osu keenen center for entrepreneurship logo">
         </div>
         <div>
-            <img class="logo-image" src="/public/assets/gen-usa-logo.svg" alt="generation usa logo">
+            <img class="logo-image" src="/assets/gen-usa-logo.svg" alt="generation usa logo">
         </div>
         <div>
-            <img class="logo-image" src="/public/assets/see3d-logo.png" alt="see3d logo">
+            <img class="logo-image" src="/assets/see3d-logo.png" alt="see3d logo">
         </div>
         <div>
-            <img class="logo-image" src="/public/assets/innovation-studio-logo.svg" alt="innovation studio logo">
+            <img class="logo-image" src="/assets/innovation-studio-logo.svg" alt="innovation studio logo">
         </div>
         <div>
-            <img src="/public/assets/school-for-the-blind-logo.png" alt="ohio state school for the blind logo">
+            <img src="/assets/school-for-the-blind-logo.png" alt="ohio state school for the blind logo">
         </div>
     </div>
 </div>
@@ -30,7 +30,7 @@
 }
 
 .bg-braille {
-    background-image: url('/public/assets/unsplash-royalty-free-braille.jpg');
+    background-image: url('/assets/unsplash-royalty-free-braille.jpg');
     box-shadow: inset 0 0 0 1000vw rgba(174, 51, 219, 0.35);
     background-position: 0 40%;
     background-size: cover;
@@ -48,7 +48,7 @@
 }
 
 .md {
-    font-size: 4rem;
+    font-size: 3.5em;
 }
 
 .my-2 {
