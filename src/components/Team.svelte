@@ -127,6 +127,10 @@
     display: flex;
     justify-content: space-between;
   }
+  
+  .fa {
+    color: #9EB7E5;
+  }
 
   a:hover {
     cursor: pointer;
