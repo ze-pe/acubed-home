@@ -6,7 +6,6 @@
   <img class="enigma-img" src="./assets/enigma.png" alt="">
   <div class="enigma-text">
     <p class="title">Enigma Reader</p>
-    <img class="enigma-braille" src="/assets/enigma-reader-braille.png" alt="">
     <div class="sub-text">The enigma braille reader is our signature device, which aims to be affordable and provide an expandable ecosystem for people who are blind to be able to plug and play new functionality into their braille device.</div>
   </div>
 </div>

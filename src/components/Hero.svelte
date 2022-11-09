@@ -1,10 +1,34 @@
 <script>
+  import { onMount } from "svelte";
+  import Typewriter from 'typewriter-effect/dist/core';
+  import br from 'braille';
+ 
+  // let braille = '\u2801\u2800\u2803\u2825\u2803\u2811\u2819\u2800\u2819\u2811\u280E\u280A\u281B\u281D'
+  let braille = br.toBraille('A Cubed Design');
+
+  onMount(()=> {
+  let heroTitle = document.getElementById('main-title');
+
+  let typewriter = new Typewriter(heroTitle, {
+      loop: false
+  });
   
-  // const clickHandler = (e) => {
-  //   console.log(e.target);
-  //   e.target.style.textAlign = 'left';
-  //   e.target.style.flexDirection = 'row';
-  // }
+  typewriter.typeString('A Cubed Design')
+      .pauseFor(1500)
+      .deleteAll()
+      .typeString(braille)
+      .pauseFor(1500)
+      .deleteAll()
+      .pauseFor(1500)
+      .typeString('A Cubed Design')
+      .callFunction((state) => {
+         // turn off animation
+         state.elements.cursor.style.animation = 'none'
+         // hide cursor
+         state.elements.cursor.style.display = 'none'
+      })
+      .start();
+    })
 </script>
 
 <div class="background">
@@ -16,7 +40,7 @@
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <div class="content" >
     <div class="hero-left">
-      <h1><span>A</span> <span>C</span>UBED <span>D</span>ESIGN</h1>
+      <h1 id="main-title" alt="A Cubed Design"></h1>
       <p>Tackling the braille literacy crisis by making it easier for blind individuals to acquire screen readers</p>
     </div>
     <div class="hero-right">
@@ -83,9 +107,9 @@
     font-size: 4em;
   }
 
-  span {
+  /* span {
     font-size: 1.16em;
-  }
+  } */
 
   p {
     font-size: 1.8em;
