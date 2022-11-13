@@ -6,17 +6,17 @@
   <div class="cards">
     <div class="card">
       <div class="card-header">Accessible</div>
-      <img class="card-image" src="https://cdn-icons-png.flaticon.com/512/5273/5273859.png" alt="hand reading a braille book">
+      <img class="card-image" src="/assets/braille2.png" alt="hand reading a braille book">
       <p class="card-text">We value accessibility first and foremost. We aim to provide a product, which will be easily usable and well documented.</p>
     </div>
     <div class="card">
       <div class="card-header">Affordable</div>
-      <img class="card-image" src="https://cdn-icons-png.flaticon.com/512/3146/3146459.png" alt="two hands holding a coin">
+      <img class="card-image" src="/assets/money2.png" alt="two hands holding a coin">
       <p class="card-text">Our braille display is slated to become the most easily obtainable product on the market.</p>
     </div>
     <div class="card">
       <div class="card-header">Accelerated</div>
-      <img class="card-image" src="https://cdn-icons-png.flaticon.com/512/619/619175.png" alt="a flying rocket ship">
+      <img class="card-image" src="/assets/rocket2.png" alt="a flying rocket ship">
       <p class="card-text">We aim to accelerate the way blind individuals interface with their environment by adding plug and play features to our device.</p>
     </div>
   </div>
@@ -26,12 +26,12 @@
 
 <style>
   .a-container {
-    background-color: rgba(41, 41, 41, .8);
+    /* background-color: rgba(41, 41, 41, .8); */
     padding: 100px;
     box-sizing: border-box;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     .cards {
       flex-wrap: wrap;
       justify-content: center;
@@ -44,7 +44,7 @@
   }
   
   .card {
-    margin: 2rem;
+    margin: 2em;
   }
 
   .three-a-header {
@@ -63,7 +63,8 @@
   }
 
   .card-text {
-    margin: 1.5rem 0;
-    font-size: 1.2rem;
+    margin: 1.2em auto;
+    line-height: 1.2em;
+    font-size: 1.3rem;
   }
 </style>
