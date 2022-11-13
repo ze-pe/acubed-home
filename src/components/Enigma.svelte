@@ -20,6 +20,9 @@
     display: flex;
     align-items: center;
     padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
   }
 
   @media (max-width: 1000px) {
@@ -61,7 +64,8 @@
 
   .one {
   /* background: rgb(78,6,111); */
-  background: linear-gradient(0.35turn, rgb(166, 29, 193),5%, rgb(78,6,111), 60%, rgb(78,6,111), 96%, rgb(166, 29, 193));
+  background: #8B85C1;
+  box-shadow: inset  0px 0px 0px 8px #CDC392;
   position: relative;
 }
 
@@ -71,7 +75,8 @@
   content: '';
   width: 150px;
   height: 150px;
-  background: rgb(78,6,111);
+  background: #8B85C1;
+  border-bottom: 4px solid #CDC392;
   bottom: -1em;
   z-index: 0;
 }
