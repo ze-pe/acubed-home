@@ -1,7 +1,13 @@
 <footer>
   <img src="./assets/ACubedLogo.png" alt="A Cubed Design Logo">
   <p class="dark-text">Copyright 2022 Accessible Affordable Accelerated Design LLC</p>
-  <p class="icon-attributions">Icon Attributions</p>
+  <div class="icon-attributions">Icon Attributions
+    <span class="attribution-links">
+      <a href="https://www.flaticon.com/free-icons/braille" title="braille icons">Braille icon by Freepik - Flaticon | </a>
+      <a href="https://www.flaticon.com/free-icons/loan" title="loan icons">Loan icon by Smashicons - Flaticon | </a>
+      <a href="https://www.flaticon.com/free-icons/rocket" title="rocket icons">Rocket icon by Freepik - Flaticon</a>
+    </span>
+  </div>
   <!-- SVGs copied from acubed site -->
   <a href="https://www.facebook.com/A-Cubed-Design-104416965644412" target="_blank">
     <svg class="svg-content fb" viewBox="0 0 112 112" x="0" y="0" id="svg-7e29"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2
@@ -51,8 +57,9 @@
   }
 
   .icon-attributions {
+    color: #888;
+    position: relative;
     font-size: .8em;
-    margin-right: 3em;
   }
 
   @media (max-width: 1150px) {
@@ -67,8 +74,6 @@
 
     .icon-attributions{
       position: absolute;
-      right: 0;
-      left: 0;
       margin: 4.5em auto 0 auto;
     }
   }
@@ -92,5 +97,28 @@
   
   .linkedin {
     color: #0077B5;
+  }
+
+  .icon-attributions .attribution-links {
+    visibility: hidden;
+    width: 300px;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 100;
+    border: 3px solid rgb(0, 0, 0);
+    bottom: 100%;
+    left: 50%;
+    margin-left: -150px;
+    background-color:white;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  .icon-attributions:hover .attribution-links {
+    visibility: visible;
+    opacity: 1;
   }
 </style>
