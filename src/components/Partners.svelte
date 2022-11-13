@@ -27,6 +27,7 @@
     margin: 0 auto;
     padding: 75px 0;
     width: 100%;
+    
 }
 
 .bg-braille {
@@ -34,6 +35,8 @@
     box-shadow: inset 0 0 0 1000vw rgba(174, 51, 219, 0.35);
     background-position: 0 40%;
     background-size: cover;
+    border-top: 8px ridge rgb(105, 49, 125);
+    border-bottom: 8px groove rgb(105, 49, 125);
 }
 
 .flex {
@@ -64,14 +67,14 @@
     width: 230px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     .container {
       flex-wrap: wrap;
       justify-content: center;
     }
 
     .logo-image {
-        margin: 20px;
+        margin: 1.5em 0;
     }
   }
 </style>
