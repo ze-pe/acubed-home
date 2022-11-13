@@ -3,13 +3,14 @@
 <div class="a-container" id="team">
   <div>
     <div class="team-title">
-      <h1 class="exec-team-heading"><span></span>Executive Team</h1>
+      <img class="logo-image" src="/assets/ACubedLogo.png" alt="logo">
+      <h1 class="exec-team-heading">Executive Team</h1>
     </div>
     <div class="cards">
       <div class="card">
         <div class="card-content">
           <img class="profile-pic" src="/assets/Garrett.png" alt="Garrett Carder">
-          <h1>Garrett Carder</h1>
+          <h2>Garrett Carder</h2>
           <div class="job-title">CEO & Chief Engineer</div>
           <p>Graduating in 2023 from OSU with a Bachelor's in Computer Science, Garrett leads A Cubed Design in Business Development and Engineering Development</p>
           <div class="social-links">
@@ -22,7 +23,7 @@
       <div class="card">
         <div class="card-content">
           <img class="profile-pic" src="/assets/Caroline.png" alt="Caroline Karbowski">
-          <h1>Caroline Karbowski</h1>
+          <h2>Caroline Karbowski</h2>
           <div class="job-title">Chief Community Officer</div>
           <p>Graduate in 2022 of OSU with a Bachelor's in Biology, Caroline backs A Cubed Design with a Robust Community and Deep Knowledge of Blindness Accessibility</p>
           <div class="social-links">
@@ -35,7 +36,7 @@
       <div class="card">
         <div class="card-content">
           <img class="profile-pic" src="/assets/Enan.png" alt="Enan Srivastava">
-          <h1>Enan Srivastava</h1>
+          <h2>Enan Srivastava</h2>
           <div class="job-title">Chief Operations Officer</div>
           <p>Graduate in 2022 of OSU with a Bachelor's in Economics, Enan is the driving force behind A Cubed Design's Strategy and Operations.</p>
           <div class="social-links">
@@ -58,6 +59,12 @@
     align-items: center;
     text-align: center;
     padding: 75px;
+  }
+
+  .team-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .cards {
@@ -94,18 +101,14 @@
     border: 2px solid rgba(255, 255, 255, 0.87);
   }
 
-  h1 {
+  h2 {
     font-size: 1.5rem;
     margin: 1.5rem 0;
   }
 
-  span {
-    padding: 70px;
-    margin: 0px 20px;
-    background-image: url('/assets/ACubedLogo.png');
-    background-size: contain;
-    background-position: 15%;
-    background-repeat: no-repeat;
+  .logo-image {
+    width: 120px;
+    padding: 0 1em;
   }
 
   .job-title {
@@ -136,7 +139,12 @@
     cursor: pointer;
   }
 
-  @media (max-width: 950px) {
+  @media (max-width: 1200px) {
+    .team-title {
+      flex-wrap: wrap;
+      margin-bottom: 2em;
+    }
+
     .cards {
       flex-wrap: wrap;
       justify-content: center;
