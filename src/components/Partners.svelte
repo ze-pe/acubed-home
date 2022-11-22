@@ -33,10 +33,10 @@
 .bg-braille {
     background-image: url('/assets/unsplash-royalty-free-braille.jpg');
     box-shadow: inset 0 0 0 1000vw rgba(174, 51, 219, 0.35);
-    background-position: 0 40%;
+    background-position: 0 10%;
     background-size: cover;
-    border-top: 8px ridge rgb(105, 49, 125);
-    border-bottom: 8px groove rgb(105, 49, 125);
+    border-top: 8px solid rgb(84, 31, 103);
+    border-bottom: 8px solid rgb(84, 31, 103);
 }
 
 .flex {
@@ -47,7 +47,7 @@
 }
 
 .text-center {
-    text-align: center;
+    align-items: center;
 }
 
 .md {
@@ -55,7 +55,7 @@
 }
 
 .my-2 {
-    margin: 1.5rem 0;
+    margin: 1.5rem auto;
     line-height: 1em;
 }
 
@@ -67,6 +67,12 @@
     width: 230px;
 }
 
+@media (max-width: 870px) {
+    .text-center {
+        font-size: 2em;
+    }
+}
+
 @media (max-width: 1200px) {
     .container {
       flex-wrap: wrap;
@@ -75,6 +81,10 @@
 
     .logo-image {
         margin: 1.5em 0;
+    }
+
+    .text-center {
+        max-width: 400px;
     }
   }
 </style>
