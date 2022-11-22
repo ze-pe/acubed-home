@@ -9,12 +9,11 @@
 
 <style>
   .contact {
-    padding: 7em 0 5em;
+    padding: 175px 0 80px;
   }
 
   h2 {
     font-size: 60px;
-    margin: 1.5rem 0;
     line-height: 1em;
   }
 
