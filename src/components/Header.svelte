@@ -13,7 +13,9 @@ function mainHandler() {
 </script>
 
 <header>
-  <img src="/assets/ACubedD-White-Transparent.png" alt="A Cubed Design Logo">
+  <a href="/" on:click={mainHandler}>
+    <img src="/assets/ACubedD-White-Transparent.png" alt="A Cubed Design Logo">
+  </a>
   <div class="links">
     <a href="/" on:click={mainHandler}>About</a>
     <a href="#team" on:click={mainHandler}>Team</a>
@@ -45,7 +47,7 @@ function mainHandler() {
   }
 
   img {
-    height: 80%;
+    width: 275px;
     padding: 0 10px;
   }
 
@@ -81,7 +83,8 @@ function mainHandler() {
   @media (max-width: 950px) {
     header {
       flex-direction: column;
-      padding: 1rem;
+      padding: 1em 0;
+      margin: 0 auto;
     }
 
     .links {
@@ -90,6 +93,11 @@ function mainHandler() {
 
     .links a {
       font-size: 1.25rem;
+    }
+
+    .accent-block,
+    .accent-block-2 {
+      display: none;
     }
   }
 
