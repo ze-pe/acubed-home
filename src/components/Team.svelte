@@ -77,7 +77,7 @@
   
   .card {
     border-radius: 20px;
-    width: 320px;
+    width: 360px;
     margin-bottom: 40px;
     font-size: 2em;
     display: flex;
@@ -137,6 +137,12 @@
 
   a:hover {
     cursor: pointer;
+  }
+
+  @media (max-width: 870px) {
+    .exec-team-heading {
+        font-size: 2em;
+    }
   }
 
   @media (max-width: 1200px) {
