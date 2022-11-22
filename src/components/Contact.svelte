@@ -1,4 +1,4 @@
-
+<div class="background"></div>
 
 <div class="contact" id="contact">
   <h2>Get Involved</h2>
@@ -8,6 +8,21 @@
 </div>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+  .background {
+      background: url("https://raw.githubusercontent.com/Croixed/acubed-home/main/public/assets/pixabay-royalty-free-printer-2.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: rgba(41, 41, 41, .9);
+
+      background-blend-mode: darken;
+      height: 100%;
+      width: 100vw;
+      z-index: -1;
+
+      position: fixed;
+      transform: scaleX(-1); /* flips image */
+  }
   .contact {
     padding: 175px 0 80px;
   }
