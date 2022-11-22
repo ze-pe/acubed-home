@@ -31,8 +31,18 @@
     box-sizing: border-box;
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1270px) {
+    /* .a-container {
+      margin: 0 4em;
+    } */
+    .three-a-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     .cards {
+      display: flex;
       flex-wrap: wrap;
       justify-content: center;
     }
@@ -40,7 +50,6 @@
 
   .cards {
     display: flex;
-    font-size: 2em;
   }
   
   .card {
@@ -66,5 +75,21 @@
     margin: 1.2em auto;
     line-height: 1.2em;
     font-size: 1.3rem;
+  }
+
+  @media (max-width: 870px) {
+    .three-a-header {
+      font-size: 2em;
+      width: 175px;
+      margin: 0 auto;
+    }
+
+    .card-header {
+      font-size: 1.4em;
+    }
+
+    .card-text {
+      font-size: 1.2em;
+    }
   }
 </style>
