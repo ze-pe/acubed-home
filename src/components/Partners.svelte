@@ -35,8 +35,8 @@
     box-shadow: inset 0 0 0 1000vw rgba(174, 51, 219, 0.35);
     background-position: 0 10%;
     background-size: cover;
-    border-top: 8px solid rgb(84, 31, 103);
-    border-bottom: 8px solid rgb(84, 31, 103);
+    border-top: 3px solid rgba(84, 31, 103, .90);
+    border-bottom: 3px solid rgba(84, 31, 103, .90);
 }
 
 .flex {
