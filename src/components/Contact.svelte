@@ -1,7 +1,7 @@
 <div class="background"></div>
 
 <div class="contact" id="contact">
-  <h2>Get Involved</h2>
+  <h1>Get Involved</h1>
   <p>Want to get involved? Want to provide feedback?</p>
   <p>Fill out the form below to get in contact with us.</p>
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfynGDAGn5yMX5LjyVCN98s9Cmx1M3hItnamqN4jmdYEgdavA/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" class="ui-droppable" title="Google Form">Loading…</iframe>
@@ -27,8 +27,8 @@
     padding: 175px 0 80px;
   }
 
-  h2 {
-    font-size: 60px;
+  h1 {
+    font-size: 3.5em;
     line-height: 1em;
     padding: 0 auto;
     margin-bottom: .3em;
@@ -41,7 +41,16 @@
   }
 
   iframe {
-    margin-top: 1rem;
+    margin-top: 1em;
   }
   
+  @media (max-width: 450px) {
+    h1 {
+      font-size: 2em;
+    }
+
+    p {
+      font-size: .9em;
+    }
+  }
 </style>
