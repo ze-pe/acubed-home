@@ -152,14 +152,14 @@
       <div class="cards">
         <div class="card">
           <div class="card-content">
-            <img class="profile-pic" src="https://picsum.photos/300/300" alt="team member name">
-            <h3>Team Member #1</h3>
+            <img class="profile-pic" src="/public/assets/abisha-thomas.png" alt="team member name">
+            <h3>Abisha Thomas</h3>
           </div>
         </div>
         <div class="card">
           <div class="card-content">
-            <img class="profile-pic" src="https://picsum.photos/300/300" alt="team member name">
-            <h3>Team Member #2</h3>
+            <img class="profile-pic" src="/public/assets/giuseppe-cespedes.jpg" alt="team member name">
+            <h3>Giuseppe Céspedes</h3>
           </div>
         </div>
       </div>
