@@ -10,23 +10,23 @@
   let heroTitle = document.getElementById('main-title');
 
   let typewriter = new Typewriter(heroTitle, {
-      loop: false
+      loop: true
   });
   
   typewriter.typeString('A Cubed Design')
-      .pauseFor(1500)
-      .deleteAll()
+      .pauseFor(3500)
+      .deleteAll(100)
       .typeString(braille)
       .pauseFor(1500)
-      .deleteAll()
+      .deleteAll(100)
       .pauseFor(1500)
-      .typeString('A Cubed Design')
-      .callFunction((state) => {
-         // turn off animation
-         state.elements.cursor.style.animation = 'none'
-         // hide cursor
-         state.elements.cursor.style.display = 'none'
-      })
+      // .typeString('A Cubed Design')
+      // .callFunction((state) => {
+      //    // turn off animation
+      //    state.elements.cursor.style.animation = 'none'
+      //    // hide cursor
+      //    state.elements.cursor.style.display = 'none'
+      // })
       .start();
     })
 </script>
@@ -37,10 +37,10 @@
 
 <div class="hero-container">
 
-  <!-- svelte-ignore a11y-click-events-have-key-events -->
+
   <div class="content" >
     <div class="hero-left">
-      <h1 id="main-title" alt="A Cubed Design"></h1>
+      <h1 id="main-title">A Cubed Design</h1>
       <p>Tackling the braille literacy crisis by making it easier for blind individuals to acquire screen readers</p>
     </div>
     <div class="hero-right">
@@ -56,7 +56,6 @@
     background: url("https://raw.githubusercontent.com/Croixed/acubed-home/main/public/assets/pixabay-royalty-free-printer-2.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-color: hsla(282 78% 8% / 0.4);  */
     background-color: rgba(41, 41, 41, .9);
 
     background-blend-mode: darken;
@@ -74,30 +73,11 @@
     
     margin: 112px auto 10px;
     padding-top: 60px;
-    /* padding-bottom: 120px; */
 
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-  /* .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-
-    backdrop-filter: blur(10px);
-    background-color: #0003;
-    border-radius: 10px;
-    gap: 12px;
-
-    height: 40%;
-
-    padding: 22px;
-  } */
 
   iframe {
     margin: 80px auto;
@@ -105,14 +85,9 @@
     aspect-ratio: 16/9;
   }
   
-
   h1 {
     font-size: 4em;
   }
-
-  /* span {
-    font-size: 1.16em;
-  } */
 
   p {
     font-size: 1.8em;
@@ -149,11 +124,6 @@
 
     p {
       font-size: 1.2em;
-    }
-
-    .hero-container {
-      flex-wrap: wrap;
-      justify-content: center;
     }
   }
 </style>
