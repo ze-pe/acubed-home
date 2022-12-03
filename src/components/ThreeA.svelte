@@ -2,20 +2,20 @@
 
 <div class="a-container">
 
-  <h1 class="three-a-header">Three A's of A Cubed Design</h1>
+  <h2 class="three-a-title">Three A's of A Cubed Design</h2>
   <div class="cards">
     <div class="card">
-      <div class="card-header">Accessible</div>
+      <h3 class="card-header">Accessible</h3>
       <img class="card-image" src="/assets/braille2.png" alt="hand reading a braille book">
       <p class="card-text">We value accessibility first and foremost. We aim to provide a product, which will be easily usable and well documented.</p>
     </div>
     <div class="card">
-      <div class="card-header">Affordable</div>
+      <h3 class="card-header">Affordable</h3>
       <img class="card-image" src="/assets/money2.png" alt="two hands holding a coin">
       <p class="card-text">Our braille display is slated to become the most easily obtainable product on the market.</p>
     </div>
     <div class="card">
-      <div class="card-header">Accelerated</div>
+      <h3 class="card-header">Accelerated</h3>
       <img class="card-image" src="/assets/rocket2.png" alt="a flying rocket ship">
       <p class="card-text">We aim to accelerate the way blind individuals interface with their environment by adding plug and play features to our device.</p>
     </div>
@@ -26,26 +26,9 @@
 
 <style>
   .a-container {
-    /* background-color: rgba(41, 41, 41, .8); */
     padding: 100px;
     box-sizing: border-box;
-  }
-
-  @media (max-width: 1270px) {
-    /* .a-container {
-      margin: 0 4em;
-    } */
-    .three-a-header {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+    max-width: 2000px;
   }
 
   .cards {
@@ -56,15 +39,15 @@
     margin: 2em;
   }
 
-  .three-a-header {
-    margin-top: 2rem;
+  .three-a-title {
+    margin-top: 2em;
     font-size: 3.5em;
   }
   
-  .card-header {
-    font-size: 2rem;
+  h3 {
+    font-size: 2em;
     font-weight: bold;
-    margin: 1.5rem auto;
+    margin: 1.5em auto;
   }
 
   .card-image {
@@ -74,11 +57,11 @@
   .card-text {
     margin: 1.2em auto;
     line-height: 1.2em;
-    font-size: 1.3rem;
+    font-size: 1.3em;
   }
 
   @media (max-width: 870px) {
-    .three-a-header {
+    .three-a-title {
       font-size: 2em;
       width: 175px;
       margin: 0 auto;
@@ -92,4 +75,13 @@
       font-size: 1.2em;
     }
   }
+
+  @media (max-width: 1270px) {
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
 </style>
