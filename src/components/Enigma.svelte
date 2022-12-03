@@ -1,7 +1,3 @@
-
-
-
-
 <div class="enigma">
   <img class="enigma-img" src="./assets/enigma-lighter.png" alt="enigma reader">
   <div class="enigma-text">
@@ -10,18 +6,17 @@
   </div>
 </div>
 
-
-
-
-
 <style>
   .enigma {
     display: flex;
     align-items: center;
     padding: 50px;
     width: 75%;
+    max-width: 1150px;
     margin: 0 auto;
-    background: hsla(282.2, 98.6%, 28.8%, 0.8);
+    /* background: hsla(282.2, 98.6%, 28.8%, 0.8); */
+    /* background: linear-gradient(108deg, #480368cc 23%, #56037c 53%, #670192cc 86%); */
+    background: linear-gradient(108deg, #670192cc 63%, #56037c 69%, #480368cc 98%);
     border-radius: 20px;
   }
 
@@ -34,12 +29,6 @@
     box-shadow: 0px 0px 10px 6px #292929;
 
   }
-/* 
-  .enigma-text {
-    margin: 0 auto;
-    padding: 40px;
-    z-index: 1;
-  } */
 
   .title {
     font-size: 3.5em;
